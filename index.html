@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>현동한 (DNights) · Android Developer</title>
+  <meta name="description" content="안드로이드 개발자 현동한의 포트폴리오. 딜리셔스 신상마켓 Android 파트장, 13년차.">
+  <meta property="og:title" content="현동한 (DNights) · Android Developer">
+  <meta property="og:description" content="딜리셔스 신상마켓 Android 파트장 · 13년차 Android 개발자">
+  <meta property="og:url" content="https://dnights.github.io/">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://dnights.github.io/">
+  <style>
+    :root { --bg: #fafaf8; --fg: #1c1c1a; --muted: #62625c; --line: #e2e2dc; --card: #ffffff; --accent: #2e7d4f; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #141413; --fg: #ecece6; --muted: #a2a29a; --line: #2e2e2b; --card: #1c1c1a; --accent: #6cc794; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 16px 72px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1 { font-size: 1.9rem; margin: 0; letter-spacing: -0.01em; }
+    h2 { font-size: 1.05rem; margin: 40px 0 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+    .role { color: var(--muted); margin: 4px 0 16px; }
+    .links { display: flex; flex-wrap: wrap; gap: 8px 16px; padding: 0; margin: 0; list-style: none; }
+    ul.plain { padding-left: 1.1em; margin: 0; }
+    ul.plain li { margin: 4px 0; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+    .card b { display: block; margin-bottom: 2px; }
+    .card span { color: var(--muted); font-size: .92rem; }
+    table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+    td { padding: 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+    td:first-child { color: var(--muted); white-space: nowrap; padding-right: 16px; width: 1%; }
+    footer { margin-top: 48px; color: var(--muted); font-size: .85rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>현동한 <span style="color:var(--muted);font-weight:400">· DNights</span></h1>
+    <p class="role">Android Developer · 딜리셔스 신상마켓 Android 파트장 · 2013년부터 13년차</p>
+    <ul class="links">
+      <li><a href="https://dnight.tistory.com">📘 Blog</a></li>
+      <li><a href="https://github.com/DNights">🐙 GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/donghan-h-11b78b237">💼 LinkedIn</a></li>
+      <li><a href="https://g.dev/DNight">🧑‍💻 Google Developer</a></li>
+      <li><a href="mailto:guehgk456@gmail.com">📧 Email</a></li>
+    </ul>
+  </header>
+
+  <h2>About</h2>
+  <p>앱 개발, 유지보수, 리팩토링, 자동화, 팀 리딩을 해 왔고, 요즘은 AI 코딩 도구를 대규모 Android 프로젝트에 적용하는 방법을 정리하고 있습니다.</p>
+
+  <h2>Highlights</h2>
+  <ul class="plain">
+    <li>🛍️ 신상마켓 Android 앱: Java → Kotlin 100% 전환, 모듈화, Jetpack Compose 마이그레이션, 디자인 시스템 도입</li>
+    <li>🤖 AI 코딩 에이전트 하네스 구축: AGENTS.md·스킬 기반 Context Engineering, 교훈 루프 (2026)</li>
+    <li>🎬 ExoPlayer2 → Media3 마이그레이션, 상품 동영상, Edge-to-Edge, ANR·크래시 개선 (2025 ~ 2026)</li>
+    <li>💬 WebSocket(ActionCable) 기반 채팅: <a href="https://github.com/dealicious-inc/actioncable-client-kotlin">actioncable-client-kotlin</a></li>
+    <li>💳 NEXT-M 결제 앱: 카카오페이·SSG Pay·알리페이 연동, 카드단말기 USB Serial 통신</li>
+  </ul>
+
+  <h2>Side Project</h2>
+  <div class="cards">
+    <div class="card">
+      <b><a href="https://play.google.com/store/apps/details?id=com.ddayer.dn">디데이어 (Ddayer)</a></b>
+      <span>2016년부터 운영 중인 D-day 위젯 앱. 2026년 Compose · Material 3로 전면 개편.</span>
+    </div>
+  </div>
+
+  <h2>Open Source &amp; Samples</h2>
+  <div class="cards">
+    <div class="card"><b><a href="https://github.com/DNights/CircularViewPager">CircularViewPager</a></b><span>무한 순환 ViewPager 라이브러리 (JitPack)</span></div>
+    <div class="card"><b><a href="https://github.com/DNights/StringResGenerator">StringResGenerator</a></b><span>엑셀 → Android/iOS 문자열 리소스 생성</span></div>
+    <div class="card"><b><a href="https://github.com/DNights/AndroidUniqueID">AndroidUniqueID</a></b><span>ANDROID_ID, Widevine ID 샘플</span></div>
+    <div class="card"><b><a href="https://github.com/DNights/AndroidScopedStorageSample">AndroidScopedStorageSample</a></b><span>MediaStore · SAF 샘플</span></div>
+    <div class="card"><b><a href="https://github.com/DNights/StickyHeaderRecyclerViewSample">StickyHeaderRecyclerView</a></b><span>ItemDecoration 기반 Sticky Header</span></div>
+    <div class="card"><b><a href="https://github.com/DNights/RxBusSample">RxBusSample</a></b><span>RxJava2로 만든 EventBus</span></div>
+  </div>
+
+  <h2>Career</h2>
+  <table>
+    <tr><td>2019.10 ~</td><td><a href="https://dealicious.kr">딜리셔스</a> · 연구개발센터 모바일개발팀 Android 파트장 (2023.03 ~)</td></tr>
+    <tr><td>2017.02 ~ 2019.10</td><td>13마일 · Android 앱 개발 (NEXT-M 결제 앱)</td></tr>
+    <tr><td>2015.03 ~ 2016.11</td><td>Retech (중국 현지) · DreamBook 콘텐츠 Player / NDK SDK</td></tr>
+    <tr><td>2013.11 ~ 2015.02</td><td>넷앤티비 · Android 앱 개발</td></tr>
+  </table>
+  <p><a href="https://github.com/DNights/DNights/blob/main/Career.md">경력기술서 전체 보기 →</a></p>
+
+  <footer>© 현동한 (DNights)</footer>
+</main>
+</body>
+</html>

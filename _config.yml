@@ -1,9 +1,8 @@
-title: DNights Github Page
+title: DNights · 현동한
 email: guehgk456@gmail.com
-description: This pages is DNights GitHub Pages
+description: Android developer 현동한 (DNights) portfolio
 baseurl: ''
 url: ''
-twitter_username: DN_developer
 github_username: DNights
 markdown: kramdown
 theme: minima

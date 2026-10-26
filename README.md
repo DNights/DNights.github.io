@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+# DNights.github.io
 
-You can use the [editor on GitHub](https://github.com/DNights/DNights.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**KO** 안드로이드 개발자 현동한(DNights)의 포트폴리오 페이지입니다. → https://dnights.github.io
+**EN** Portfolio page of Android developer Donghan Hyun (DNights). → https://dnights.github.io
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- `index.html`: 포트폴리오 메인 / portfolio home (Jekyll을 거치지 않는 단독 HTML / standalone HTML)
+- `ddayer_privacy_policy.html`: [디데이어](https://play.google.com/store/apps/details?id=com.ddayer.dn) 개인정보처리방침 / Ddayer privacy policy
+- `_posts/`: 예전 Jekyll 글 / old Jekyll posts
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DNights/DNights.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+📘 Blog: [dnight.tistory.com](https://dnight.tistory.com)
